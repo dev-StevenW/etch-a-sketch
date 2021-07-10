@@ -1,0 +1,24 @@
+:root {
+  --dimension: 1;
+}
+
+#container {
+  position: relative;
+  top: 30px;
+  outline: 2px solid #000;
+  font-size: 0;
+  margin: auto;
+  height: 960px;
+  width: 960px;
+  padding: 0;
+  border: none;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.185);
+  display: inline-block;
+  background-color: grey;
+}
